@@ -594,3 +594,244 @@ border-top-left-radius: .25rem;
 border-top-right-radius: .25rem;
 }
 /* tabbar section end */
+
+/** start pos tab list mehedi **/
+.stock-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 20px 1;
+}
+.stock-tab h4 {
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #000000;
+}
+.product-stock {
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+.product-stock h5{
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+.product-stock h6{
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 10px;
+  text-align: end;
+}
+/** end of stock teb **/
+.product-sales-header tr th:first-child{
+  text-align: left;
+}
+.product-sales-header tr th{
+  width: 30%;
+}
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  padding: 0 15px;
+}
+.product-sales-header tr th:first-child {
+  text-align: left;
+  border-left: 1px solid #ddd;
+}
+.table thead th {
+  text-align: end;
+  font-size: 15px;
+  color: #000000;
+  text-transform: capitalize;
+  border-right: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.table thead th:last-child {
+  border-right: 1px solid #ddd;
+}
+.table tbody+tbody {
+  border-top: 0;
+}
+.table td, .table th {
+  vertical-align: top;
+  border-top: 0;
+  padding: 0;
+}
+.table td {
+  border-bottom: 1px solid #ddd;
+  text-align: end;
+  padding-top: 15px;
+  padding-bottom: 10px!important;
+}
+.pos-product {
+  display: flex;
+  width: 150%;
+}
+.pos-product-media {
+  width: 25%;
+  margin-right: 10px;
+}
+.pos-product-media img {
+  border: 1px solid #ddd;
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+}
+.pos-poduct-details {
+  margin-top: 8px;
+}
+.pos-poduct-details h3 {
+  margin: 0;
+  font-size: 15px;
+  color: #000000;
+  text-transform: capitalize;
+}
+.pos-poduct-details span {
+  display: block;
+  text-align: left;
+  font-size: 10px;
+  color: #5f5f5f;
+  text-transform: capitalize;
+}
+td.td-color {
+  text-align: end;
+  padding-top: 40px;
+}
+td.td-padding {
+  padding: 40px;
+}
+th.td-padding {
+  padding-right:40px;
+}
+.td-color.one span {
+  background-color: #daf7e8;
+    font-size: 11px;
+    text-transform: capitalize;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+.td-color.two span {
+  background-color: rgb(255, 226, 230);
+  font-size: 11px;
+  text-transform: capitalize;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+.td-color.three span {
+  background-color: rgba(255, 226, 230, 0.59);
+  font-size: 11px;
+  text-transform: capitalize;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+span {
+  font-size: 14px;
+  line-height: 1.428;
+  font-family: 'Fira Sans', sans-serif;
+}
+/** end of tbody **/
+.custom-butn {
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
+.custom-butn a {
+  font-size: 15px;
+  color: #3B86FF;
+  text-transform: capitalize;
+}
+/** end of custom butn **/
+
+.quick-tab {
+  padding: 20px 20px 0 20px;
+}
+.quick-tab h4 {
+  font-size: 20px;
+  color: #000000;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+.pos-product-icon tr td {
+  font-size: 13px;
+  color: #4D4F5C;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+.pos-product-icon tr td a {
+  display: flex;
+  align-items: center;
+}
+.pos-product-icon tr td span p {
+  font-size: 15px;
+  color: #43425D;
+  margin-left: 7px;
+  text-transform: capitalize;
+}
+.pos-product-icon tr td span {
+  margin-left: 7px;
+  font-size: 15px;
+  color: #43425D;
+  text-transform: capitalize;
+}
+.pos_tab_list_left,
+.pos_list_right{
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+  padding: 15px;
+}
+/** end pos tab list **/
+
+/** start of order tab list custom css **/
+.salse-poduct-details h3 {
+  margin: 0;
+  font-size: 15px;
+  color: #000000;
+  text-transform: capitalize;
+}
+.salse-poduct-details span {
+  display: block;
+  text-align: left;
+  font-size: 10px;
+  color: #5f5f5f;
+  text-transform: capitalize;
+}
+td.td-number {
+  text-align: end;
+  padding-top: 33px;
+  padding-right: 30px;
+}
+.td-number span {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 600;
+}
+td.td-padding {
+  padding: 33px 40px 40px 0;
+}
+th.td-padding {
+  padding-right:40px;
+}
+td.td-bg span{
+  background-color: rgba(255, 114, 133, 0.205);
+  padding: 5px 17px;
+  border-radius: 25px;
+  text-transform: capitalize;
+}
+td.td-bg {
+  padding: 33px 20px 40px 0;
+}
+th.td-bg {
+  padding-right:40px;
+}
+
+/** end of order tab list custom css**/
