@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="Icon" transform="translate(-235 -994)">
+    <g id="Icon.BG" transform="translate(235 994)" fill="#fff" stroke="#56d9fe" stroke-width="1">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="18.5" fill="none"/>
+    </g>
+    <path id="money-bag-icon" d="M-227.408-1011a3.359,3.359,0,0,1-2.768-1.5,3.02,3.02,0,0,1,0-3l3.514-6a1.136,1.136,0,0,1,.958-.5h4.258a1.135,1.135,0,0,1,.958.5l3.514,6a3.013,3.013,0,0,1,0,3,3.359,3.359,0,0,1-2.768,1.5Zm1.7-13a1,1,0,0,1-.745-.3l-1.065-1a.975.975,0,0,1,.745-1.7h6.387a.993.993,0,0,1,.745,1.7l-1.065,1a1,1,0,0,1-.745.3Z" transform="translate(477.575 2032)" fill="#56d9fe"/>
+  </g>
+</svg>
