@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+
+  <title>Pos v2.0</title>
+  <!--favicon-->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link href="assets/css/app-main.css" rel="stylesheet"/>
+  <link href="assets/plugin/simplebar/css/simplebar.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+ <!-- Start wrapper-->
+ <div id="wrapper">
+
+   <!--Start sidebar-wrapper-->
+   <div id="sidebar-wrapper" data-simplebar-auto-hide="true">
+
+     <!-- start -->
+     <div class="pos_single_report clearfix" id="pos_single_report">
+       <div class="pos_report_icon_area skyeblue_bg">
+         <div class="pos_reportIcon">
+           <img class="daily_report_svg" id="daily_report_svg" src="assets/images/icon/daily-icon.svg">
+         </div>
+       </div>
+       <div class="pos_report_content">
+         <h2>Today Sales</h2>
+         <p>2000</p>
+       </div>
+     </div>
+     <!-- end -->
+
+     <!-- start -->
+     <div class="pos_single_report clearfix" id="pos_single_report">
+       <div class="pos_report_icon_area green_bg">
+         <div class="pos_reportIcon">
+           <img class="daily_report_svg" id="daily_report_svg" src="assets/images/icon/weekly_icon.svg">
+         </div>
+       </div>
+       <div class="pos_report_content">
+         <h2>Today Sales</h2>
+         <p>2000</p>
+       </div>
+     </div>
+     <!-- end -->
+     <!-- start -->
+     <div class="pos_single_report clearfix" id="pos_single_report">
+       <div class="pos_report_icon_area blue_bg">
+         <div class="pos_reportIcon">
+           <img class="daily_report_svg" id="daily_report_svg" src="assets/images/icon/monthly_icon.svg">
+         </div>
+       </div>
+       <div class="pos_report_content">
+         <h2>Today Sales</h2>
+         <p>2000</p>
+       </div>
+     </div>
+     <!-- end -->
+     <!-- start -->
+     <div class="pos_single_report clearfix" id="pos_single_report">
+       <div class="pos_report_icon_area purple_bg">
+         <div class="pos_reportIcon">
+           <img class="daily_report_svg" id="daily_report_svg" src="assets/images/icon/profit_icon.svg">
+         </div>
+       </div>
+       <div class="pos_report_content">
+         <h2>Today Sales</h2>
+         <p>2000</p>
+       </div>
+     </div>
+     <!-- end -->
+     <!-- start -->
+     <div class="pos_single_report clearfix" id="pos_single_report">
+       <div class="pos_report_icon_area orange_bg">
+         <div class="pos_reportIcon">
+           <img class="daily_report_svg" id="daily_report_svg" src="assets/images/icon/member_icon.svg">
+         </div>
+       </div>
+       <div class="pos_report_content">
+         <h2>Today Sales</h2>
+         <p>2000</p>
+       </div>
+     </div>
+     <!-- end -->
+
+
+     <!-- botton Side Nav Start -->
+     <div class="sideNavBottom" style="grid-auto-flow: column;">
+
+       <div class="leftstylebottom1">
+         <button type="button" class="btn btn-primary" id="bottomstyle">
+           <img class="bottomnavimg" src="assets/images/icon/arrow_icon.svg" alt="">
+           <p class="bottomnavtext">Switch Registers</p>
+         </button>
+       </div>
+       <div class="leftstylebottom2">
+         <button type="button" class="btn bg-white" id="bottomstyle">
+           <img class="bottomnavimg" src="assets/images/icon/close_icon.svg" alt="">
+           <p class="bottomnavtext">Close Register</p>
+         </button>
+       </div>
+       <div class="leftstylebottom3">
+         <button type="button" class="btn bg-white" id="bottomstyle">
+           <img class="bottomnavimg" src="assets/images/icon/lock.svg" alt="">
+           <p class="bottomnavtext">LOCK</p>
+         </button>
+       </div>
+       <div class="leftstylebottom3">
+         <button type="button" class="btn bg-white" id="bottomstyle">
+           <span class="badge badge-pill badge-light badge-recycel">10</span>
+           <img class="bottomnavimg" src="assets/images/icon/recycle.svg" alt="">
+           <p class="bottomnavtext">Recycle Bin</p>
+         </button>
+
+       </div>
+
+     </div>
+     <!-- botton Side Nav End-->
+
+
+
+
+     </div>
+     <!--End sidebar-wrapper-->
+
+    <!--Start topbar header-->
+    <header class="topbar-nav">
+    <nav class="navbar navbar-expand fixed-top bg-white">
+      <!-- menu icon and title start-->
+      <ul class="navbar-nav mr-auto align-items-center">
+        <li class="nav-item menu-icon">
+          <a class="nav-link toggle-menu" href="javascript:void();">
+             <img class="title_icon" src="./assets/images/icon/nav_icon.svg" alt="">
+          </a>
+          <a href="#"><img class="pos-logo" src="assets/images/icon/Logo.svg" alt=""></a>
+        </li>
+      </ul>
+      <!-- menu icon and title end -->
+         <div id="dock-container">
+              <div id="dock">
+                <ul>
+                  <li>
+                    <span>Home</span>
+                    <a href="#"><img class="pos_nav_icon" src="assets/images/icon/home.svg" alt=""></a>
+                  </li>
+                  <li>
+                    <span>Sales</span>
+                    <a href="#"><img class="pos_nav_icon" src="assets/images/icon/sales_icon.svg" alt=""></a>
+                  </li>
+                  <li>
+                    <span>Inventory</span>
+                    <a href="#"> <img class="pos_nav_icon" src="assets/images/icon/inventory_icon.svg" alt=""></a>
+                  </li>
+                  <li>
+                    <span>Clients</span>
+                    <a href="#"> <img class="pos_nav_icon" src="assets/images/icon/client_icon.svg" alt=""></a>
+                  </li>
+                  <li>
+                    <span>Reports</span>
+                    <a href="#"> <img class="pos_nav_icon" src="assets/images/icon/reports_icon.svg" alt=""></a>
+                  </li>
+                  <li>
+                    <span>Settings1</span>
+                    <a href="#"> <img class="pos_nav_icon" src="assets/images/icon/settings_icon.svg" alt=""></a>
+                  </li>
+                  <li>
+                    <span>Menu</span>
+                    <a href="#"> <img class="pos_nav_icon" src="assets/images/icon/menu_icon.svg" alt=""></a>
+                  </li>
+                </ul>
+              </div><!-- end of dock -->
+        </div>
+
+      <ul class="navbar-nav align-items-center right-nav-link">
+        <li class="nav-item" style="display: flex">
+            <div class="title-woner">
+                <p>Mamun Ahmed</p>
+                <span>Manager</span>
+            </div>
+          <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
+            <span class="user-profile"><img  src="assets/images/profile.png" class="img-circle" alt="user avatar"></span>
+          </a>
+          <a href=""><img class="mainmenu-topbar" src="assets/images/icon/menu_icon.svg" alt="mainmenu"></a>
+          <ul class="dropdown-menu dropdown-menu-right animated fadeIn">
+            <li class="dropdown-item"><i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i> Profile</li>
+            <li class="dropdown-divider"></li>
+            <li class="dropdown-item"><i class="fa fa-cog fa-lg"></i> Setting</li>
+            <li class="dropdown-divider"></li>
+            <li class="dropdown-item"><i class="fa fa-sign-out fa-lg"  aria-hidden="true"></i></i> Logout</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    </header>
+    <!--End topbar header-->
+
+
+
+    <div class="content-wrapper">
+      <div class="container-fluid">
+        <!--Start Dashboard Content-->
+         <!-- tabbar section -->
+         <section id="tabs" class="project-tab">
+
+            <nav>
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                  aria-controls="nav-home" aria-selected="true">Chart</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                  aria-controls="nav-profile" aria-selected="false">Stock</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                  aria-controls="nav-contact" aria-selected="false">Order</a>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="container-fluid">
+                  <div class="row">
+
+                  </div>
+                </div>
+              </div><!-- end of tab-pane chart -->
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class=" col-md-7">
+                      <div class="pos_tab_list_left">
+
+                        <div class="stock-tab">
+                          <h4>our stock</h4>
+                          <div class="product-stock">
+                            <h5>total product stock</h5>
+                            <h6>1,21,700 Items</h6>
+                          </div><!-- end of product stock -->
+                        </div><!-- end of stock tab -->
+
+
+                        <table class="table">
+                          <thead class="product-sales-header">
+                            <tr>
+                              <th>product</th>
+                              <th>availibility</th>
+                              <th class="td-padding">total</th>
+                            </tr>
+                          </thead><!-- end of procuct sales header -->
+
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="pos-product">
+                                  <div class="pos-product-media">
+                                    <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
+                                  </div><!-- end of pos product media -->
+                                  <div class="pos-poduct-details">
+                                    <h3><a href="#">Title Goes Here</a></h3>
+                                    <span>catagory: yoko</span>
+                                    <span>brand: alpha</span>
+                                  </div><!-- end of pos product details -->
+                                </div><!-- end of pos product -->
+                              </td>
+                              <td class="td-color one"><span>320 in stock</span></td>
+                              <td class="td-padding"><span>2900</span></td>
+                            </tr><!-- end of tr -->
+                          </tbody><!-- end of tbody -->
+
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="pos-product">
+                                  <div class="pos-product-media">
+                                    <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
+                                  </div><!-- end of pos product media -->
+                                  <div class="pos-poduct-details">
+                                    <h3><a href="#">Title Goes Here</a></h3>
+                                    <span>catagory: yoko</span>
+                                    <span>brand: alpha</span>
+                                  </div><!-- end of pos product details -->
+                                </div><!-- end of pos product -->
+                              </td>
+                              <td class="td-color two"><span>320 in stock</span></td>
+                              <td class="td-padding"><span>2900</span></td>
+                            </tr><!-- end of tr -->
+                          </tbody><!-- end of tbody -->
+
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="pos-product">
+                                  <div class="pos-product-media">
+                                    <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
+                                  </div><!-- end of pos product media -->
+                                  <div class="pos-poduct-details">
+                                    <h3><a href="#">Title Goes Here</a></h3>
+                                    <span>catagory: yoko</span>
+                                    <span>brand: alpha</span>
+                                  </div><!-- end of pos product details -->
+                                </div><!-- end of pos product -->
+                              </td>
+                              <td class="td-color three"><span>320 in stock</span></td>
+                              <td class="td-padding"><span>2900</span></td>
+                            </tr><!-- end of tr -->
+                          </tbody><!-- end of tbody -->
+                        </table><!-- end of table -->
+
+                        <div class="custom-butn">
+                          <a href="#">show more</a>
+                        </div><!-- end of custom butn-->
+
+                      </div><!-- end of tab-list left -->
+                    </div><!-- end of col-7-->
+                    <div class="col-md-5 pos_list_right">
+                      <div class="pos_tab_list_right">
+                        <div class="quick-tab">
+                          <h4>quick details</h4>
+                        </div><!-- end of quick tab -->
+
+                        <table class="table">
+                          <tbody class="pos-product-icon">
+                            <tr>
+                              <td>
+                                <span>
+                                  <a href="#">
+                                    <img src="assets/images/icon/user.svg" alt="user-icon">
+                                    <p>290 new customers</p></span>
+                                </a><span>last 24 hours</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><span> <a href="#"><img src="assets/images/icon/reload.svg" alt="reload-icon">
+                                    <p>490 orders</p></span> </a><span>awaiting process</span></td>
+                            </tr>
+                            <tr>
+                              <td><span> <a href="#"><img src="assets/images/icon/clock.svg" alt="clock-icon">
+                                    <p>220 orders</p></span> </a><span>on hold</span></td>
+                            </tr>
+                            <tr>
+                              <td><span> <a href="#"><img src="assets/images/icon/cross.svg" alt="cross-icon">
+                                    <p>42 items</p></span> </a><span>oiut of stock</span></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div><!-- end of tab-list right -->
+                    </div><!-- end of col-5 -->
+                  </div>
+                </div>
+              </div><!-- end of tab-pane stock -->
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="pos_tab_list_left">
+                        <div class="stock-tab">
+                          <h4>today's salse</h4>
+                          <div class="product-stock">
+                            <h5>total sold</h5>
+                            <h6>1,2100 Items</h6>
+                          </div><!-- end of product stock -->
+                        </div><!-- end of stock tab -->
+
+
+                        <table class="table">
+                          <thead class="product-sales-header">
+                            <tr>
+                              <th>product</th>
+                              <th>salse quantity</th>
+                              <th class="td-padding">total</th>
+                            </tr>
+                           </thead><!-- end of procuct sales header -->
+
+
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="pos-product">
+                                  <div class="pos-product-media">
+                                    <a href="#"><img src="assets/images/product/product9.jpg" alt="product-img" /></a>
+                                  </div><!-- end of pos product media -->
+                                  <div class="salse-poduct-details">
+                                    <h3><a href="#">Title Goes Here</a></h3>
+                                    <span>catagory: yoko</span>
+                                    <span>brand: alpha</span>
+                                    <span>30 min ago</span>
+                                  </div><!-- end of pos product details -->
+                                </div><!-- end of pos product -->
+                              </td>
+                              <td class="td-number"><span>320</span></td>
+                              <td class="td-padding"><span>5400</span></td>
+                            </tr><!-- end of tr -->
+                          </tbody><!-- end of tbody -->
+
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="pos-product">
+                                  <div class="pos-product-media">
+                                    <a href="#"><img src="assets/images/product/product12.jpg" alt="product-img" /></a>
+                                  </div><!-- end of pos product media -->
+                                  <div class="salse-poduct-details">
+                                    <h3><a href="#">Title Goes Here</a></h3>
+                                    <span>catagory: yoko</span>
+                                    <span>brand: alpha</span>
+                                    <span>6 hr ago</span>
+                                  </div><!-- end of pos product details -->
+                                </div><!-- end of pos product -->
+                              </td>
+                              <td class="td-number"><span>24</span></td>
+                              <td class="td-padding"><span>3500</span></td>
+                            </tr><!-- end of tr -->
+                          </tbody><!-- end of tbody -->
+
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="pos-product">
+                                  <div class="pos-product-media">
+                                    <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
+                                  </div><!-- end of pos product media -->
+                                  <div class="salse-poduct-details">
+                                    <h3><a href="#">Title Goes Here</a></h3>
+                                    <span>catagory: yoko</span>
+                                    <span>brand: alpha</span>
+                                    <span>3 hr ago</span>
+                                  </div><!-- end of pos product details -->
+                                </div><!-- end of pos product -->
+                              </td>
+                              <td class="td-number"><span>50</span></td>
+                              <td class="td-padding"><span>2900</span></td>
+                            </tr><!-- end of tr -->
+                          </tbody><!-- end of tbody -->
+                        </table><!-- end of table -->
+
+                        <div class="custom-butn">
+                          <a href="#">show more</a>
+                        </div><!-- end of custom butn-->
+
+                      </div><!-- end of tab-list left -->
+                    </div><!-- end of col-md-6 -->
+
+                    <div class="col-md-6">
+                      <div class="pos_tab_list_left">
+
+                        <div class="stock-tab">
+                          <h4>order cancel</h4>
+                          <div class="product-stock">
+                            <h5>product cancel</h5>
+                            <h6>1,2100 Items</h6>
+                          </div><!-- end of product stock -->
+                        </div><!-- end of stock tab -->
+
+
+                        <table class="table">
+                          <thead class="product-sales-header">
+                            <tr>
+                              <th>product</th>
+                              <th>salse quantity</th>
+                              <th class="td-padding">total</th>
+                            </tr>
+                          </thead><!-- end of procuct sales header -->
+
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="pos-product">
+                                  <div class="pos-product-media">
+                                    <a href="#"><img src="assets/images/product/product12.jpg" alt="product-img" /></a>
+                                  </div><!-- end of pos product media -->
+                                  <div class="salse-poduct-details">
+                                    <h3><a href="#">Title Goes Here</a></h3>
+                                    <span>catagory: yoko</span>
+                                    <span>brand: alpha</span>
+                                    <span>30 min ago</span>
+                                  </div><!-- end of pos product details -->
+                                </div><!-- end of pos product -->
+                              </td>
+                              <td class="td-number"><span>320</span></td>
+                              <td class="td-bg"><span>cancel</span></td>
+                            </tr><!-- end of tr -->
+                          </tbody><!-- end of tbody -->
+
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="pos-product">
+                                  <div class="pos-product-media">
+                                    <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
+                                  </div><!-- end of pos product media -->
+                                  <div class="salse-poduct-details">
+                                    <h3><a href="#">Title Goes Here</a></h3>
+                                    <span>catagory: yoko</span>
+                                    <span>brand: alpha</span>
+                                    <span>6 hr ago</span>
+                                  </div><!-- end of pos product details -->
+                                </div><!-- end of pos product -->
+                              </td>
+                              <td class="td-number"><span>24</span></td>
+                              <td class="td-bg"><span>cancel</span></td>
+                            </tr><!-- end of tr -->
+                          </tbody><!-- end of tbody -->
+
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="pos-product">
+                                  <div class="pos-product-media">
+                                    <a href="#"><img src="assets/images/product/product9.jpg" alt="product-img" /></a>
+                                  </div><!-- end of pos product media -->
+                                  <div class="salse-poduct-details">
+                                    <h3><a href="#">Title Goes Here</a></h3>
+                                    <span>catagory: yoko</span>
+                                    <span>brand: alpha</span>
+                                    <span>3 hr ago</span>
+                                  </div><!-- end of pos product details -->
+                                </div><!-- end of pos product -->
+                              </td>
+                              <td class="td-number"><span>50</span></td>
+                              <td class="td-bg"><span>cancel</span></td>
+                            </tr><!-- end of tr -->
+                          </tbody><!-- end of tbody -->
+                        </table><!-- end of table -->
+
+                        <div class="custom-butn">
+                          <a href="#">show more</a>
+                        </div><!-- end of custom butn-->
+
+                      </div><!-- end of tab-list left -->
+                    </div><!-- end of col-md-6 -->
+                  </div>
+                </div>
+              </div><!-- end of tab-pane order -->
+            </div><!-- end of nav-tabContent -->
+          </section><!-- end of tab section -->
+
+
+        <!-- Dashbord Bottom section start -->
+        <section class="pos-revenue-section">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="pos-footer-item">
+                <div class="pos-total-icon-area footer-blue-border">
+                  <img class="pos-total-icon" src="assets/images/icon/money-bag-icon.svg" alt="">
+                </div><!-- end of pos-total-icon-area-->
+                <div class="pos-total-content ">
+                  <h3 class="footer-blue">$50,000</h3>
+                  <span>Total Revenue</span>
+
+                </div><!-- end of pos-total-content-->
+                <img class="pos-menu-icon" src="assets/images/icon/menu-icon.svg" alt="">
+              </div><!-- end of pos-footer-item-->
+            </div><!-- end of col-3-->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="pos-footer-item">
+                <div class="pos-total-icon-area footer-violet-border">
+                  <img class="pos-total-icon" src="assets/images/icon/cart-icon.svg" alt="">
+                </div><!-- end of pos-total-icon-area-->
+                <div class="pos-total-content">
+                  <h3 class="footer-violet">$1,250</h3>
+                  <span>Todays Revenue</span>
+
+                </div><!-- end of pos-total-content-->
+                <img class="pos-menu-icon" src="assets/images/icon/menu-icon.svg" alt="">
+              </div><!-- end of pos-footer-item-->
+            </div><!-- end of col-3-->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="pos-footer-item">
+                <div class="pos-total-icon-area footer-green-border">
+                  <img class="pos-total-icon" src="assets/images/icon/trend-up-icon.svg" alt="">
+                </div><!-- end of pos-total-icon-area-->
+                <div class="pos-total-content">
+                  <h3 class="footer-green">+2.0%</h3>
+                  <span>Growth</span>
+
+                </div><!-- end of pos-total-content-->
+                <img class="pos-menu-icon" src="assets/images/icon/menu-icon.svg" alt="">
+              </div><!-- end of pos-footer-item-->
+            </div><!-- end of col-3-->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="pos-footer-item">
+                <div class="pos-total-icon-area footer-red-border">
+                  <img class="pos-total-icon" src="assets/images/icon/calculations.svg" alt="">
+                </div><!-- end of pos-total-icon-area-->
+                <div class="pos-total-content">
+                  <h3 class="footer-red">+2.0%</h3>
+                  <span>Total Cost</span>
+
+                </div><!-- end of pos-total-content-->
+                <img class="pos-menu-icon" src="assets/images/icon/menu-icon.svg" alt="">
+              </div><!-- end of pos-footer-item-->
+            </div><!-- end of col-3-->
+          </div><!-- end of row -->
+        </section>
+        <!-- Dashbord Bottom section End -->
+
+
+        <!--End Dashboard Content-->
+      </div><!--end-->
+      </div><!-- End container-fluid-->
+
+    </div><!--End content-wrapper-->
+  </div><!--End wrapper-->
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+
+  <!-- sidebar-menu js -->
+  <script src="assets/js/sidebar-menu.js"></script>
+  <!-- simple bar -->
+  <script src="assets/plugin/simplebar/js/simplebar.js"></script>
+  <!-- Custom scripts -->
+  <script src="assets/js/app-script.js"></script>
+
+</body>
+</html>

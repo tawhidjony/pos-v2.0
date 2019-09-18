@@ -209,336 +209,361 @@
   <div class="content-wrapper">
     <div class="container-fluid">
       <!--Start Dashboard Content-->
-       <!-- tabbar section -->
-       <section id="tabs" class="project-tab">
 
-          <navmn >
+       <!-- tabbar section -->
+      <section id="tabs" class="project-tab">
+
+          <!-- nav button start -->
+          <nav>
             <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-              <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+              <a class="nav-item nav-link active" id="nav-tab-chart" data-toggle="tab" href="#tab-chart" role="tab"
                 aria-controls="nav-home" aria-selected="true">Chart</a>
-              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+              <a class="nav-item nav-link" id="nav-tab-stock" data-toggle="tab" href="#tab-stock" role="tab"
                 aria-controls="nav-profile" aria-selected="false">Stock</a>
-              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+              <a class="nav-item nav-link" id="nav-tab-order" data-toggle="tab" href="#tab-order" role="tab"
                 aria-controls="nav-contact" aria-selected="false">Order</a>
             </div>
           </nav>
+          <!-- nav button End -->
+        
           <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <!--Tab Chart Section start -->
+            <div class="tab-pane fade show active" id="tab-chart" role="tabpanel" aria-labelledby="nav-tab-chart">
               <div class="container-fluid">
                 <div class="row">
-
+                  <div class="col-md-7">
+                    <div class="card">
+                      <div class="card-body">
+                        <h1>Chart js are here</h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card">
+                      <div class="card-body">
+                        <h1>map</h1>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div><!-- end of tab-pane chart -->
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            </div>
+            <!--Tab Chart Section start -->
+
+
+            <!--Tab Stock Section start -->
+            <div class="tab-pane fade" id="tab-stock" role="tabpanel" aria-labelledby="nav-tab-stock">
               <div class="container-fluid">
                 <div class="row">
-                  <div class=" col-md-7">
-                    <div class="pos_tab_list_left">
+                  <!-- Our stock start -->
+                  <div class="col-md-7">
+                    <div class="card">
+                      <div class="card-body our-stock-height">
+                          <!-- stock title start -->
+                          <div class="stock-tab">
+                            <h4>our stock</h4>
+                            <div class="product-stock">
+                              <h5>total product stock</h5>
+                              <h6>1,21,700 Items</h6>
+                            </div>
+                          </div>
+                          <!-- stock title end -->
 
-                      <div class="stock-tab">
-                        <h4>our stock</h4>
-                        <div class="product-stock">
-                          <h5>total product stock</h5>
-                          <h6>1,21,700 Items</h6>
-                        </div><!-- end of product stock -->
-                      </div><!-- end of stock tab -->
+                          <!-- product table start -->
+                          <table class="table">
+                              <thead class="product-sales-header">
+                                <tr>
+                                  <th>product</th>
+                                  <th>availibility</th>
+                                  <th class="td-padding">total</th>
+                                </tr>
+                              </thead><!-- end of procuct sales header -->
+              
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <div class="pos-product">
+                                      <div class="pos-product-media">
+                                        <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
+                                      </div><!-- end of pos product media -->
+                                      <div class="pos-poduct-details">
+                                        <h3><a href="#">Title Goes Here</a></h3>
+                                        <span>catagory: yoko</span>
+                                        <span>brand: alpha</span>
+                                      </div><!-- end of pos product details -->
+                                    </div><!-- end of pos product -->
+                                  </td>
+                                  <td class="td-color one"><span>320 in stock</span></td>
+                                  <td class="td-padding"><span>2900</span></td>
+                                </tr><!-- end of tr -->
 
+                                <tr>
+                                  <td>
+                                    <div class="pos-product">
+                                      <div class="pos-product-media">
+                                        <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
+                                      </div><!-- end of pos product media -->
+                                      <div class="pos-poduct-details">
+                                        <h3><a href="#">Title Goes Here</a></h3>
+                                        <span>catagory: yoko</span>
+                                        <span>brand: alpha</span>
+                                      </div><!-- end of pos product details -->
+                                    </div><!-- end of pos product -->
+                                  </td>
+                                  <td class="td-color two"><span>320 in stock</span></td>
+                                  <td class="td-padding"><span>2900</span></td>
+                                </tr><!-- end of tr -->
 
-                      <table class="table">
-                        <thead class="product-sales-header">
-                          <tr>
-                            <th>product</th>
-                            <th>availibility</th>
-                            <th class="td-padding">total</th>
-                          </tr>
-                        </thead><!-- end of procuct sales header -->
+                                <tr>
+                                  <td>
+                                    <div class="pos-product">
+                                      <div class="pos-product-media">
+                                        <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
+                                      </div><!-- end of pos product media -->
+                                      <div class="pos-poduct-details">
+                                        <h3><a href="#">Title Goes Here</a></h3>
+                                        <span>catagory: yoko</span>
+                                        <span>brand: alpha</span>
+                                      </div><!-- end of pos product details -->
+                                    </div><!-- end of pos product -->
+                                  </td>
+                                  <td class="td-color three"><span>320 in stock</span></td>
+                                  <td class="td-padding"><span>2900</span></td>
+                                </tr><!-- end of tr -->
+                              
+                              </tbody><!-- end of tbody -->
+                          </table>
+                          <!-- product table end -->
+                          <div class="custom-butn">
+                              <a href="#">show more</a>
+                          </div><!-- end of custom butn-->
+                      </div>
+                    </div>
+                  </div>
+                  <!--Our stock end -->
 
-                        <tbody>
-                          <tr>
-                            <td>
-                              <div class="pos-product">
-                                <div class="pos-product-media">
-                                  <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
-                                </div><!-- end of pos product media -->
-                                <div class="pos-poduct-details">
-                                  <h3><a href="#">Title Goes Here</a></h3>
-                                  <span>catagory: yoko</span>
-                                  <span>brand: alpha</span>
-                                </div><!-- end of pos product details -->
-                              </div><!-- end of pos product -->
-                            </td>
-                            <td class="td-color one"><span>320 in stock</span></td>
-                            <td class="td-padding"><span>2900</span></td>
-                          </tr><!-- end of tr -->
-                        </tbody><!-- end of tbody -->
-
-                        <tbody>
-                          <tr>
-                            <td>
-                              <div class="pos-product">
-                                <div class="pos-product-media">
-                                  <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
-                                </div><!-- end of pos product media -->
-                                <div class="pos-poduct-details">
-                                  <h3><a href="#">Title Goes Here</a></h3>
-                                  <span>catagory: yoko</span>
-                                  <span>brand: alpha</span>
-                                </div><!-- end of pos product details -->
-                              </div><!-- end of pos product -->
-                            </td>
-                            <td class="td-color two"><span>320 in stock</span></td>
-                            <td class="td-padding"><span>2900</span></td>
-                          </tr><!-- end of tr -->
-                        </tbody><!-- end of tbody -->
-
-                        <tbody>
-                          <tr>
-                            <td>
-                              <div class="pos-product">
-                                <div class="pos-product-media">
-                                  <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
-                                </div><!-- end of pos product media -->
-                                <div class="pos-poduct-details">
-                                  <h3><a href="#">Title Goes Here</a></h3>
-                                  <span>catagory: yoko</span>
-                                  <span>brand: alpha</span>
-                                </div><!-- end of pos product details -->
-                              </div><!-- end of pos product -->
-                            </td>
-                            <td class="td-color three"><span>320 in stock</span></td>
-                            <td class="td-padding"><span>2900</span></td>
-                          </tr><!-- end of tr -->
-                        </tbody><!-- end of tbody -->
-                      </table><!-- end of table -->
-
-                      <div class="custom-butn">
-                        <a href="#">show more</a>
-                      </div><!-- end of custom butn-->
-
-                    </div><!-- end of tab-list left -->
-                  </div><!-- end of col-7-->
-                  <div class="col-md-5 pos_list_right">
-                    <div class="pos_tab_list_right">
-                      <div class="quick-tab">
-                        <h4>quick details</h4>
-                      </div><!-- end of quick tab -->
-
-                      <table class="table">
-                        <tbody class="pos-product-icon">
-                          <tr>
-                            <td>
-                              <span>
-                                <a href="#">
-                                  <img src="assets/images/icon/user.svg" alt="user-icon">
-                                  <p>290 new customers</p></span>
-                              </a><span>last 24 hours</span>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td><span> <a href="#"><img src="assets/images/icon/reload.svg" alt="reload-icon">
-                                  <p>490 orders</p></span> </a><span>awaiting process</span></td>
-                          </tr>
-                          <tr>
-                            <td><span> <a href="#"><img src="assets/images/icon/clock.svg" alt="clock-icon">
-                                  <p>220 orders</p></span> </a><span>on hold</span></td>
-                          </tr>
-                          <tr>
-                            <td><span> <a href="#"><img src="assets/images/icon/cross.svg" alt="cross-icon">
-                                  <p>42 items</p></span> </a><span>oiut of stock</span></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div><!-- end of tab-list right -->
-                  </div><!-- end of col-5 -->
+                  <!-- start -->
+                  <div class="col-md-5">
+                    <div class="card">
+                      <div class="card-body our-stock-height">
+                          <div class="quick-tab">
+                            <h4>quick details</h4>
+                          </div><!-- end of quick tab -->
+                          
+                          <table class="table">
+                            <tbody class="pos-product-icon">
+                              <tr>
+                                <td>
+                                  <span>
+                                    <a href="#">
+                                      <img src="assets/images/icon/user.svg" alt="user-icon">
+                                      <p>290 new customers</p></span>
+                                  </a><span>last 24 hours</span>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><span> <a href="#"><img src="assets/images/icon/reload.svg" alt="reload-icon">
+                                      <p>490 orders</p></span> </a><span>awaiting process</span></td>
+                              </tr>
+                              <tr>
+                                <td><span> <a href="#"><img src="assets/images/icon/clock.svg" alt="clock-icon">
+                                      <p>220 orders</p></span> </a><span>on hold</span></td>
+                              </tr>
+                              <tr>
+                                <td><span> <a href="#"><img src="assets/images/icon/cross.svg" alt="cross-icon">
+                                      <p>42 items</p></span> </a><span>oiut of stock</span></td>
+                              </tr>
+                            </tbody>
+                          </table>
+  
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end -->
                 </div>
               </div>
-            </div><!-- end of tab-pane stock -->
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            </div>
+            <!--Tab Stock Section End -->
+
+            <!--Tab Order Section Start -->
+            <div class="tab-pane fade" id="tab-order" role="tabpanel" aria-labelledby="nav-tab-order">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="pos_tab_list_left">  
-                      <div class="stock-tab">
-                        <h4>today's salse</h4>
-                        <div class="product-stock">
-                          <h5>total sold</h5>
-                          <h6>1,2100 Items</h6>
-                        </div><!-- end of product stock -->
-                      </div><!-- end of stock tab -->
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="stock-tab">
+                          <h4>today's salse</h4>
+                          <div class="product-stock">
+                            <h5>total sold</h5>
+                            <h6>1,2100 Items</h6>
+                          </div><!-- end of product stock -->
+                        </div><!-- end of stock tab -->
 
+                        <table class="table">
+                            <thead class="product-sales-header">
+                              <tr>
+                                <th>product</th>
+                                <th>salse quantity</th>
+                                <th class="td-padding">total</th>
+                              </tr>
+                            </thead><!-- end of procuct sales header -->
+                            
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <div class="pos-product">
+                                    <div class="pos-product-media">
+                                      <a href="#"><img src="assets/images/product/product9.jpg" alt="product-img" /></a>
+                                    </div><!-- end of pos product media -->
+                                    <div class="salse-poduct-details">
+                                      <h3><a href="#">Title Goes Here</a></h3>
+                                      <span>catagory: yoko</span>
+                                      <span>brand: alpha</span>
+                                      <span>30 min ago</span>
+                                    </div><!-- end of pos product details -->
+                                  </div><!-- end of pos product -->
+                                </td>
+                                <td class="td-number"><span>320</span></td>
+                                <td class="td-padding"><span>5400</span></td>
+                              </tr><!-- end of tr -->
+                          
+                              <tr>
+                                <td>
+                                  <div class="pos-product">
+                                    <div class="pos-product-media">
+                                      <a href="#"><img src="assets/images/product/product12.jpg" alt="product-img" /></a>
+                                    </div><!-- end of pos product media -->
+                                    <div class="salse-poduct-details">
+                                      <h3><a href="#">Title Goes Here</a></h3>
+                                      <span>catagory: yoko</span>
+                                      <span>brand: alpha</span>
+                                      <span>6 hr ago</span>
+                                    </div><!-- end of pos product details -->
+                                  </div><!-- end of pos product -->
+                                </td>
+                                <td class="td-number"><span>24</span></td>
+                                <td class="td-padding"><span>3500</span></td>
+                              </tr><!-- end of tr -->
+                          
+                              <tr>
+                                <td>
+                                  <div class="pos-product">
+                                    <div class="pos-product-media">
+                                      <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
+                                    </div><!-- end of pos product media -->
+                                    <div class="salse-poduct-details">
+                                      <h3><a href="#">Title Goes Here</a></h3>
+                                      <span>catagory: yoko</span>
+                                      <span>brand: alpha</span>
+                                      <span>3 hr ago</span>
+                                    </div><!-- end of pos product details -->
+                                  </div><!-- end of pos product -->
+                                </td>
+                                <td class="td-number"><span>50</span></td>
+                                <td class="td-padding"><span>2900</span></td>
+                              </tr><!-- end of tr -->
+                            </tbody><!-- end of tbody -->
+                          </table><!-- end of table -->
+                          
+                          <div class="custom-butn">
+                            <a href="#">show more</a>
+                          </div><!-- end of custom butn-->
 
-                      <table class="table">
-                        <thead class="product-sales-header">
-                          <tr>
-                            <th>product</th>
-                            <th>salse quantity</th>
-                            <th class="td-padding">total</th>
-                          </tr>
-                         </thead><!-- end of procuct sales header -->
-
-
-                        <tbody>
-                          <tr>
-                            <td>
-                              <div class="pos-product">
-                                <div class="pos-product-media">
-                                  <a href="#"><img src="assets/images/product/product9.jpg" alt="product-img" /></a>
-                                </div><!-- end of pos product media -->
-                                <div class="salse-poduct-details">
-                                  <h3><a href="#">Title Goes Here</a></h3>
-                                  <span>catagory: yoko</span>
-                                  <span>brand: alpha</span>
-                                  <span>30 min ago</span>
-                                </div><!-- end of pos product details -->
-                              </div><!-- end of pos product -->
-                            </td>
-                            <td class="td-number"><span>320</span></td>
-                            <td class="td-padding"><span>5400</span></td>
-                          </tr><!-- end of tr -->
-                        </tbody><!-- end of tbody -->
-
-                        <tbody>
-                          <tr>
-                            <td>
-                              <div class="pos-product">
-                                <div class="pos-product-media">
-                                  <a href="#"><img src="assets/images/product/product12.jpg" alt="product-img" /></a>
-                                </div><!-- end of pos product media -->
-                                <div class="salse-poduct-details">
-                                  <h3><a href="#">Title Goes Here</a></h3>
-                                  <span>catagory: yoko</span>
-                                  <span>brand: alpha</span>
-                                  <span>6 hr ago</span>
-                                </div><!-- end of pos product details -->
-                              </div><!-- end of pos product -->
-                            </td>
-                            <td class="td-number"><span>24</span></td>
-                            <td class="td-padding"><span>3500</span></td>
-                          </tr><!-- end of tr -->
-                        </tbody><!-- end of tbody -->
-
-                        <tbody>
-                          <tr>
-                            <td>
-                              <div class="pos-product">
-                                <div class="pos-product-media">
-                                  <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
-                                </div><!-- end of pos product media -->
-                                <div class="salse-poduct-details">
-                                  <h3><a href="#">Title Goes Here</a></h3>
-                                  <span>catagory: yoko</span>
-                                  <span>brand: alpha</span>
-                                  <span>3 hr ago</span>
-                                </div><!-- end of pos product details -->
-                              </div><!-- end of pos product -->
-                            </td>
-                            <td class="td-number"><span>50</span></td>
-                            <td class="td-padding"><span>2900</span></td>
-                          </tr><!-- end of tr -->
-                        </tbody><!-- end of tbody -->
-                      </table><!-- end of table -->
-
-                      <div class="custom-butn">
-                        <a href="#">show more</a>
-                      </div><!-- end of custom butn-->
-
-                    </div><!-- end of tab-list left -->
-                  </div><!-- end of col-md-6 -->
-
+                      </div>
+                    </div>
+                  </div>                    
                   <div class="col-md-6">
-                    <div class="pos_tab_list_left">
+                    <div class="card">
+                      <div class="card-body">
+                          <div class="stock-tab">
+                              <h4>order cancel</h4>
+                              <div class="product-stock">
+                                <h5>product cancel</h5>
+                                <h6>1,2100 Items</h6>
+                              </div><!-- end of product stock -->
+                            </div><!-- end of stock tab -->
 
-                      <div class="stock-tab">
-                        <h4>order cancel</h4>
-                        <div class="product-stock">
-                          <h5>product cancel</h5>
-                          <h6>1,2100 Items</h6>
-                        </div><!-- end of product stock -->
-                      </div><!-- end of stock tab -->
-
-
-                      <table class="table">
-                        <thead class="product-sales-header">
-                          <tr>
-                            <th>product</th>
-                            <th>salse quantity</th>
-                            <th class="td-padding">total</th>
-                          </tr>
-                        </thead><!-- end of procuct sales header -->
-
-                        <tbody>
-                          <tr>
-                            <td>
-                              <div class="pos-product">
-                                <div class="pos-product-media">
-                                  <a href="#"><img src="assets/images/product/product12.jpg" alt="product-img" /></a>
-                                </div><!-- end of pos product media -->
-                                <div class="salse-poduct-details">
-                                  <h3><a href="#">Title Goes Here</a></h3>
-                                  <span>catagory: yoko</span>
-                                  <span>brand: alpha</span>
-                                  <span>30 min ago</span>
-                                </div><!-- end of pos product details -->
-                              </div><!-- end of pos product -->
-                            </td>
-                            <td class="td-number"><span>320</span></td>
-                            <td class="td-bg"><span>cancel</span></td>
-                          </tr><!-- end of tr -->
-                        </tbody><!-- end of tbody -->
-
-                        <tbody>
-                          <tr>
-                            <td>
-                              <div class="pos-product">
-                                <div class="pos-product-media">
-                                  <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
-                                </div><!-- end of pos product media -->
-                                <div class="salse-poduct-details">
-                                  <h3><a href="#">Title Goes Here</a></h3>
-                                  <span>catagory: yoko</span>
-                                  <span>brand: alpha</span>
-                                  <span>6 hr ago</span>
-                                </div><!-- end of pos product details -->
-                              </div><!-- end of pos product -->
-                            </td>
-                            <td class="td-number"><span>24</span></td>
-                            <td class="td-bg"><span>cancel</span></td>
-                          </tr><!-- end of tr -->
-                        </tbody><!-- end of tbody -->
-
-                        <tbody>
-                          <tr>
-                            <td>
-                              <div class="pos-product">
-                                <div class="pos-product-media">
-                                  <a href="#"><img src="assets/images/product/product9.jpg" alt="product-img" /></a>
-                                </div><!-- end of pos product media -->
-                                <div class="salse-poduct-details">
-                                  <h3><a href="#">Title Goes Here</a></h3>
-                                  <span>catagory: yoko</span>
-                                  <span>brand: alpha</span>
-                                  <span>3 hr ago</span>
-                                </div><!-- end of pos product details -->
-                              </div><!-- end of pos product -->
-                            </td>
-                            <td class="td-number"><span>50</span></td>
-                            <td class="td-bg"><span>cancel</span></td>
-                          </tr><!-- end of tr -->
-                        </tbody><!-- end of tbody -->
-                      </table><!-- end of table -->
-
-                      <div class="custom-butn">
-                        <a href="#">show more</a>
-                      </div><!-- end of custom butn-->
-
-                    </div><!-- end of tab-list left -->
-                  </div><!-- end of col-md-6 -->
+                            <table class="table">
+                                <thead class="product-sales-header">
+                                  <tr>
+                                    <th>product</th>
+                                    <th>salse quantity</th>
+                                    <th class="td-padding">total</th>
+                                  </tr>
+                                </thead><!-- end of procuct sales header -->
+                          
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <div class="pos-product">
+                                        <div class="pos-product-media">
+                                          <a href="#"><img src="assets/images/product/product12.jpg" alt="product-img" /></a>
+                                        </div><!-- end of pos product media -->
+                                        <div class="salse-poduct-details">
+                                          <h3><a href="#">Title Goes Here</a></h3>
+                                          <span>catagory: yoko</span>
+                                          <span>brand: alpha</span>
+                                          <span>30 min ago</span>
+                                        </div><!-- end of pos product details -->
+                                      </div><!-- end of pos product -->
+                                    </td>
+                                    <td class="td-number"><span>320</span></td>
+                                    <td class="td-bg"><span>cancel</span></td>
+                                  </tr><!-- end of tr -->
+                                
+                                  <tr>
+                                    <td>
+                                      <div class="pos-product">
+                                        <div class="pos-product-media">
+                                          <a href="#"><img src="assets/images/product/product10.jpg" alt="product-img" /></a>
+                                        </div><!-- end of pos product media -->
+                                        <div class="salse-poduct-details">
+                                          <h3><a href="#">Title Goes Here</a></h3>
+                                          <span>catagory: yoko</span>
+                                          <span>brand: alpha</span>
+                                          <span>6 hr ago</span>
+                                        </div><!-- end of pos product details -->
+                                      </div><!-- end of pos product -->
+                                    </td>
+                                    <td class="td-number"><span>24</span></td>
+                                    <td class="td-bg"><span>cancel</span></td>
+                                  </tr><!-- end of tr -->
+                                
+                                  <tr>
+                                    <td>
+                                      <div class="pos-product">
+                                        <div class="pos-product-media">
+                                          <a href="#"><img src="assets/images/product/product9.jpg" alt="product-img" /></a>
+                                        </div><!-- end of pos product media -->
+                                        <div class="salse-poduct-details">
+                                          <h3><a href="#">Title Goes Here</a></h3>
+                                          <span>catagory: yoko</span>
+                                          <span>brand: alpha</span>
+                                          <span>3 hr ago</span>
+                                        </div><!-- end of pos product details -->
+                                      </div><!-- end of pos product -->
+                                    </td>
+                                    <td class="td-number"><span>50</span></td>
+                                    <td class="td-bg"><span>cancel</span></td>
+                                  </tr><!-- end of tr -->
+                                </tbody><!-- end of tbody -->
+                                </table><!-- end of table -->
+                                
+                                <div class="custom-butn">
+                                  <a href="#">show more</a>
+                                </div><!-- end of custom butn-->
+      
+                      </div>
+                    </div>
+                  </div>                      
                 </div>
               </div>
-            </div><!-- end of tab-pane order -->
+            </div> <!--Tab Order Section Start -->
+
           </div><!-- end of nav-tabContent -->
-        </section><!-- end of tab section -->
+
+      </section><!-- end of tab section -->
 
 
       <!-- Dashbord Bottom section start -->
@@ -607,17 +632,10 @@
     
   </div><!--End content-wrapper-->
 
-	<!-- Start footer -->
-	<!-- <footer class="footer">
-      <div class="container">
-        <div class="text-center">
-          Copyright © 2019 Civilized Tecnologies Design by Tawhid
-        </div>
-      </div>
-    </footer> -->
-	<!--End footer
+
    
-  </div><!--End wrapper-->
+  </div>
+  <!--End wrapper-->
 
   <!-- Bootstrap core JavaScript-->
   <script src="assets/js/jquery-3.4.1.min.js"></script>
